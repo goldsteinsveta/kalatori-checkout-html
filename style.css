@@ -49,6 +49,7 @@ body {
     line-height: 130%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: var(--c-b-card);
 }
 button {
     font-family: inherit;
@@ -186,6 +187,9 @@ body.kco-tac-accepted .kco-tac-reveal {
 .kco-container {
     width: 100%;
     max-width: 320px;
+    padding: 16px 32px 32px;
+    background: var(--c-b);
+    border-radius: 16px;
 }
 
 .kco-collapsable.collapsed > .kco-collapse-toggler .material-symbols-outlined {
